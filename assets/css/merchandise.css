@@ -145,6 +145,17 @@
 .Mproduct a img {
   width: 100%;
 }
+.dropdown_product_cat{ 
+  padding: 0 !important;   
+  background: white;
+  border: none;
+  border-bottom: 0.5px solid #273c89 !important;
+  color: #273c89;
+  font-weight: 900;
+}
+.searchbarImage:hover {
+  cursor: pointer;
+}
 @media (min-width: 1025px) and (max-width: 1600px) {
   .merchandiseProduct {
     padding: 80px 40px !important;
@@ -215,6 +226,9 @@
     margin-top: 20px;
   }
   .textCateogry {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     text-align: center;
   }
   .selsectACaetogries::before {
